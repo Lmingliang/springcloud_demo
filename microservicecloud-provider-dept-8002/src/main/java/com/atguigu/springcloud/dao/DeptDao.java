@@ -12,9 +12,9 @@ import java.util.List;
 @Mapper
 public interface DeptDao {
 
-	boolean addDept(Dept dept);
+    boolean addDept(Dept dept);
 
-	Dept findById(Long id);
+    Dept findById(Long id);
 
-	List<Dept> findAll();
+    List<Dept> findAll();
 }

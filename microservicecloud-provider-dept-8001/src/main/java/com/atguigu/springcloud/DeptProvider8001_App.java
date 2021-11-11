@@ -12,7 +12,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 public class DeptProvider8001_App {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DeptProvider8001_App.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DeptProvider8001_App.class, args);
+    }
 }

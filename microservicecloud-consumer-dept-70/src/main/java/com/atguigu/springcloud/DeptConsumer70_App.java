@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
  * 消费者
+ *
  * @author lml
  * @date 2020/01/09 11:30
  */
@@ -16,8 +17,8 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 //@RibbonClient(name = "MICROSERVICECLOUD-DEPT",configuration = MySelfRule.class)
 public class DeptConsumer70_App {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DeptConsumer70_App.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DeptConsumer70_App.class, args);
+    }
 
 }

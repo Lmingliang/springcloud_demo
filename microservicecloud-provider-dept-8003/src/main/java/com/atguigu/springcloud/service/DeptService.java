@@ -10,9 +10,9 @@ import java.util.List;
  */
 public interface DeptService {
 
-	boolean addDept(Dept dept);
+    boolean addDept(Dept dept);
 
-	Dept get(Long id);
+    Dept get(Long id);
 
-	List<Dept> list();
+    List<Dept> list();
 }
